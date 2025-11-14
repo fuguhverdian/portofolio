@@ -9,7 +9,7 @@ function App() {
       <div className="animate__animated animate__fadeInUp animate__delay-3s" data-aos-once="true">
         <div className="flex items-center gap-3 mb-6 bg-blue-400 w-fit p-4 rounded-2xl">
           <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md " loading="lazy" />
-        <q>hiduplah mumpung masih bisa hidup</q>
+        <q>Ingatlah mengapa anda memulai. Tujuan Anda lebih besar dari rasa lelah anda saat ini</q>
         </div>
         <h1 className="text-5xl/tight font-bold mb-6"> Halo, saya Fahrul Fuguh Verdian</h1>
         <p className=" text-base/loose mb-6 opacity-50">Saya memiliki ketertarikan yang kuat di bidang Data Analysis dan Web Programming, 
