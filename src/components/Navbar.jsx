@@ -39,10 +39,10 @@ const Navbar = () => {
                 <a href="#proyek" className="sm:text-lg text-base font-medium">Proyek
                 </a>
             </li>
-            <li>
+            {/* <li>
                 <a href="#kontak" className="sm:text-lg text-base font-medium">Kontak
                 </a>
-            </li>
+            </li> */}
         </ul>
 
   </div>

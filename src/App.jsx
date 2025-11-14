@@ -108,7 +108,7 @@ function App() {
 
     {/* proyek */}
     {/* Kontak */}
-    <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
+    {/* <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
       <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">kontak</h1>
       <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">mari terkonek
       </p>
@@ -139,7 +139,7 @@ function App() {
           </div>
         </div>
       </form>
-    </div>
+    </div> */}
 
     {/* Kontak */}
 
