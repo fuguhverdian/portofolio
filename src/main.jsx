@@ -9,7 +9,6 @@ import PreLoader from './components/PreLoader.jsx'
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import { SpeedInsights } from "@vercel/speed-insights/next"
 AOS.init();
 
 
@@ -21,6 +20,5 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Footer/>
     </div>
-    <SpeedInsights />
   </StrictMode>,
 )
