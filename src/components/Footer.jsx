@@ -1,24 +1,41 @@
 const Footer = () => {
   return (
-    <div className=" mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center ">
-        <h1 className="text-2xl font-bold">Portofolio</h1>
-        <div className="flex gap-7">
-            <a href="#beranda">Beranda</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#proyek">Proyek</a>
-        </div>
-        <div className="flex items-center gap-3">
-            <a href="https://github.com/fuguhverdian">
-                <i className="ri-github-fill ri-2x"></i>
-            </a>
-            <a href="https://www.instagram.com/fuguh_verdian/">
-                <i className="ri-instagram-fill ri-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/fuguh-verdian">
-                <i className="ri-linkedin-fill ri-2x"></i>
-            </a>
-        </div>
-    </div>
+    <footer className="
+      mt-32 py-6 
+      flex flex-col md:flex-row 
+      items-center justify-between 
+      gap-6 md:gap-0
+      bg-[var(--cyber-bg-dark)]
+    ">
+      
+      {/* Logo */}
+      <h1 className="text-2xl font-bold neon-text">
+        Portofolio
+      </h1>
+
+      {/* Navigation */}
+      <div className="flex gap-7">
+        <a href="#beranda" className="neon-link text-lg">Beranda</a>
+        <a href="#tentang" className="neon-link text-lg">Tentang</a>
+        <a href="#proyek" className="neon-link text-lg">Proyek</a>
+      </div>
+
+      {/* Social Icons */}
+      <div className="flex items-center gap-4">
+        <a href="https://github.com/fuguhverdian" target="_blank">
+          <i className="ri-github-fill ri-2x neon-icon"></i>
+        </a>
+
+        <a href="https://www.instagram.com/fuguh_verdian/" target="_blank">
+          <i className="ri-instagram-fill ri-2x neon-icon"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/fuguh-verdian" target="_blank">
+          <i className="ri-linkedin-fill ri-2x neon-icon"></i>
+        </a>
+      </div>
+
+    </footer>
   )
 }
 

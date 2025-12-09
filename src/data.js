@@ -1,4 +1,4 @@
-import HeroImage from "/assets/foto-porto5.jpg";
+import HeroImage from "/assets/foto-porto7.jpg";
 
 const Image = {
   HeroImage,
@@ -21,6 +21,7 @@ import Tools12 from "/assets/tools/collab.png";
 import Tools13 from "/assets/tools/Python.png";
 import Tools14 from "/assets/tools/CSharp.png";
 import Tools15 from "/assets/tools/TensorFlow.png";
+
 
 
 

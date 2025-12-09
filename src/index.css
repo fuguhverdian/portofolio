@@ -1,7 +1,89 @@
 @import "tailwindcss";
 
-@layer base {
-    body {
-        font-family: "Poppins", sans-serif;
-    }
+:root {
+  --cyber-bg-dark: #020617;
+  --cyber-bg-light: #0b1220;
+  --cyber-blue: #5BC0FF;
+  --cyber-accent: #8AE6FF;
+  --cyber-glow: rgba(91, 192, 255, 0.6);
+  --typing-caret: #00A8FF;
+}
+
+/* ----- KEYFRAMES ----- */
+@keyframes typing {
+  0%   { width: 0ch; }
+  40%  { width: var(--typing-ch); }
+  55%  { width: var(--typing-ch); }
+  95%  { width: 0ch; }
+  100% { width: 0ch; }
+}
+
+@keyframes neon-cursor {
+  0%, 100% { border-color: transparent; box-shadow: 0 0 4px #00c8ff; }
+  50%      { border-color: #00eaff; box-shadow: 0 0 12px #00eaff; }
+}
+
+/* ---- Tailwind v4.1 CUSTOM UTILITIES ---- */
+@utility animate-typing {
+  animation: typing 3.8s steps(var(--typing-steps)) infinite;
+}
+
+@utility animate-cursor {
+  animation: neon-cursor 0.8s step-end infinite;
+}
+
+
+@media (min-width: 640px) { /* sm */
+  .typing-text {
+    --typing-ch: 22ch;
+    --typing-steps: 22;
+  }
+}
+
+@media (min-width: 1024px) { /* lg */
+  .typing-text {
+    --typing-ch: 28ch;
+    --typing-steps: 28;
+  }
+}
+
+
+.neon-text {
+  color: var(--cyber-accent);
+  text-shadow: 0 0 8px var(--cyber-accent);
+}
+
+.neon-glow {
+  transition: .25s ease;
+}
+
+.neon-glow:hover {
+  text-shadow: 0 0 10px var(--cyber-accent), 0 0 20px var(--cyber-accent);
+}
+
+.neon-box {
+  border: 1px solid var(--cyber-blue);
+  background: rgba(91, 192, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 12px var(--cyber-glow);
+}
+
+/* Neon Hover for links */
+.neon-link {
+  color: var(--cyber-blue);
+  transition: 0.25s;
+}
+.neon-link:hover {
+  color: var(--cyber-blue-light);
+  text-shadow: var(--neon-shadow);
+}
+
+/* Neon icon for social buttons */
+.neon-icon {
+  color: var(--cyber-blue);
+  transition: 0.25s;
+}
+.neon-icon:hover {
+  color: var(--cyber-blue-light);
+  text-shadow: var(--neon-shadow);
 }

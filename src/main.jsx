@@ -15,8 +15,9 @@ AOS.init();
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PreLoader/>
-    <div className='container mx-auto px-4'>
-    <Navbar/> 
+    <Navbar/>
+    <div className="min-h-screen bg-[#020617] text-white px-4 sm:px-8 lg:px-10">
+    
     <App />
     <Footer/>
     </div>

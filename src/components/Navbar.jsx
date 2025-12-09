@@ -18,25 +18,30 @@ const Navbar = () => {
     },[])
 
   return (
-  <div className="navbar py-7 flex items-center justify-between">
+  <div className="navbar flex items-center justify-between 
+  px-4 sm:px-8 lg:px-10 py-5 
+  border-b border-[var(--cyber-blue)]/40 bg-[var(--cyber-bg-dark)]">
         <div className="logo ">
-            <h1 className="text-3xl font-bold bg-blue-400 text-blue-800 p-1 
-            md:bg-transparent md:text-blue-800 ">protofolio</h1>
+            <h1 className="text-3xl md:text-2xl font-bold neon-text">protofolio</h1>
         </div>
-        <ul className= {`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 
-        md:translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl 
-        md:bg-transparent transition-all md:transition-none z-40
-        ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
+        <ul className= {`menu flex items-center sm:gap-10 gap-4
+                        md:static fixed left-1/2 -translate-x-1/2 
+                        md:translate-x-0 md:opacity-100 
+                        bg-(--cyber-bg-light)/60 backdrop-blur-lg p-4 
+                        rounded-br-2xl rounded-bl-2xl 
+                        md:bg-transparent 
+                        transition-all md:transition-none z-40
+      ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
             <li>
-                <a href="#beranda" className="sm:text-lg text-base font-medium">Beranda
+                <a href="#beranda" className="sm:text-lg text-[#5BC0FF] hover:text-[#8AE6FF] neon-glow transition ">Beranda
                 </a>
             </li>
             <li>
-                <a href="#tentang" className="sm:text-lg text-base font-medium">Tentang
+                <a href="#tentang" className="sm:text-lg text-[#5BC0FF] hover:text-[#8AE6FF] neon-glow transition">Tentang
                 </a>
             </li>
             <li>
-                <a href="#proyek" className="sm:text-lg text-base font-medium">Proyek
+                <a href="#proyek" className="sm:text-lg text-[#5BC0FF] hover:text-[#8AE6FF] neon-glow transition">Proyek
                 </a>
             </li>
             {/* <li>
