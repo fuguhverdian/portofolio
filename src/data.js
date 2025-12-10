@@ -139,10 +139,23 @@ import Proyek3 from "/assets/proyek/sraping data.webp";
 import Proyek4 from "/assets/proyek/wbsite porto.webp";
 import Proyek5 from "/assets/proyek/image 6.webp";
 import Proyek6 from "/assets/proyek/ProyekDana.png";
+import Proyek7 from "/assets/proyek/proyek7.png";
 
 export const listProyek = [
   {
     id: 1,
+    gambar: Proyek7,
+    nama: "Website CRUD sederhana",
+    desk: "Website CRUD sederhana  yang telah dilengkapi fitur search dibuat dengan laravel framework dan sudah deplog dengan google cloud",
+    tools: ["HTML", "CSS", "Javascript", "AOS","Laravel"],
+    link:"https://github.com/fuguhverdian/CRUD_LARAVEL",
+    logo: "ri-github-fill ri-lg",
+    link_deploy:"http://34.63.201.81",
+    logo_link: "ri-link-fill ri-lg",
+    dad: "200",
+  },
+  {
+    id: 2,
     gambar: Proyek1,
     nama: "Timing_point",
     desk: "Website ToDoList dengan 4 fitur berbeda di dalam dashbroad menggunakan laravel sebagai backend",
@@ -152,7 +165,7 @@ export const listProyek = [
     dad: "200",
   },
   {
-    id: 2,
+    id: 3,
     gambar: Proyek2,
     nama: "Sentiment Analisis",
     desk: "Project akhir untuk melakukan sentiment Analisis suatu hotel, tetapi untuk demo belum diterapkan",
@@ -162,7 +175,7 @@ export const listProyek = [
     dad: "300",
   },
   {
-    id: 3,
+    id: 4,
     gambar: Proyek3,
     nama: "Scraping web hotel",
     desk: "Project untuk melakukan Scraping data di situs booking.com",
@@ -173,7 +186,7 @@ export const listProyek = [
   },
   
   {
-    id: 4,
+    id: 5,
     gambar: Proyek4,
     nama: "Website Portfolio",
     desk: "Website Portofolio diri dengan menggunakan React dan TailwindCSS",
@@ -183,7 +196,7 @@ export const listProyek = [
     dad: "500",
   },
   {
-    id: 5,
+    id: 6,
     gambar: Proyek5,
     nama: "Playman - App music player",
     desk: "Music player berbasis android menggunakan bahasa C#",
@@ -193,7 +206,7 @@ export const listProyek = [
     dad: "600",
   },
   {
-    id: 6,
+    id: 7,
     gambar: Proyek6,
     nama: "UI/UX DANA",
     desk: "User Interface untuk dana sebagai project di semester lalu",

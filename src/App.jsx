@@ -106,7 +106,9 @@ function App() {
               </div>
               <div className="mt-8 text-center ">
                 <a href={proyek.link} className="px-4 py-3 block neon-box rounded-lg hover:bg-[var(--cyber-blue)]/20 neon-glow" >lihat Project <i className={proyek.logo}></i></a>
-                 
+              </div>
+              <div className="mt-8 text-center ">
+                <a href={proyek.link_deploy} className="px-4 py-3 block neon-box rounded-lg hover:bg-[var(--cyber-blue)]/20 neon-glow" >Demo Project <i className={proyek.logo_link}></i></a>
               </div>
             </div>
           </div>
