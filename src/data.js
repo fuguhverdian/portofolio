@@ -161,7 +161,7 @@ export const listProyek = [
     nama: "Website CRUD sederhana dengan api",
     desk: "Website CRUD sederhana  yang telah terintergrasi dengan api, dibuat dengan laravel framework dan sudah deploy dengan google cloud",
     tools: ["HTML", "CSS", "Javascript", "AOS","Laravel","react"],
-    link:"https://github.com/fuguhverdian/CRUD_LARAVEL",
+    link:"https://github.com/fuguhverdian/front_end_myinventory",
     logo: "ri-github-fill ri-lg",
     link_deploy:"https://projectinven.vercel.app/",
     logo_link: "ri-link-fill ri-lg",
