@@ -175,6 +175,8 @@ export const listProyek = [
     tools: ["HTML", "CSS", "Javascript", "AOS","Laravel"],
     link:"https://github.com/fuguhverdian/FP-PemWeb",
     logo: "ri-github-fill ri-lg",
+    link_deploy:"https://notepadxyz.duckdns.org/",
+    logo_link: "ri-link-fill ri-lg",
     dad: "300",
   },
   {
