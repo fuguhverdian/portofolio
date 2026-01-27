@@ -21,6 +21,7 @@ import Tools12 from "/assets/tools/collab.png";
 import Tools13 from "/assets/tools/Python.png";
 import Tools14 from "/assets/tools/CSharp.png";
 import Tools15 from "/assets/tools/TensorFlow.png";
+import Tools16 from "/assets/tools/logo wordpress.png";
 
 
 
@@ -131,6 +132,13 @@ export const listTools = [
     ket: "Design App",
     dad: "1600",
   },
+  {
+    id: 16,
+    gambar: Tools16,
+    nama: "Wordpress",
+    ket: "CMS",
+    dad: "1700",
+  },
 ];
 
 import Proyek1 from "/assets/proyek/timingpoint.webp";
@@ -141,10 +149,23 @@ import Proyek5 from "/assets/proyek/image 6.webp";
 import Proyek6 from "/assets/proyek/ProyekDana.png";
 import Proyek7 from "/assets/proyek/proyek7.png";
 import Proyek8 from "/assets/proyek/project_api.png";
+import Proyek9 from "/assets/proyek/proyek8.png";
 
 export const listProyek = [
   {
     id: 1,
+    gambar: Proyek9,
+    nama: "Landing page LittleAresha",
+    desk: "Website Landing Page Milik Yayasan LittleAresha yang berbasis wordpress",
+    tools: ["Wordpress"],
+    link:"#",
+    logo: "ri-github-fill ri-lg",
+    link_deploy:"https://littlearesha.com",
+    logo_link: "ri-link-fill ri-lg",
+    dad: "100",
+  },
+  {
+    id: 2,
     gambar: Proyek7,
     nama: "Website CRUD sederhana",
     desk: "Website CRUD sederhana  yang telah dilengkapi fitur search dibuat dengan laravel framework dan sudah deploy dengan google cloud",
@@ -153,10 +174,10 @@ export const listProyek = [
     logo: "ri-github-fill ri-lg",
     link_deploy:"http://34.63.201.81",
     logo_link: "ri-link-fill ri-lg",
-    dad: "100",
+    dad: "200",
   },
   {
-    id: 2,
+    id: 3,
     gambar: Proyek8,
     nama: "Website CRUD sederhana dengan api",
     desk: "Website CRUD sederhana  yang telah terintergrasi dengan api, dibuat dengan laravel framework dan sudah deploy dengan google cloud",
@@ -165,10 +186,10 @@ export const listProyek = [
     logo: "ri-github-fill ri-lg",
     link_deploy:"https://projectinven.vercel.app/",
     logo_link: "ri-link-fill ri-lg",
-    dad: "200",
+    dad: "300",
   },
   {
-    id: 3,
+    id: 4,
     gambar: Proyek1,
     nama: "Timing_point",
     desk: "Website ToDoList dengan 4 fitur berbeda di dalam dashbroad menggunakan laravel sebagai backend",
@@ -177,57 +198,57 @@ export const listProyek = [
     logo: "ri-github-fill ri-lg",
     link_deploy:"https://notepadxyz.duckdns.org/",
     logo_link: "ri-link-fill ri-lg",
-    dad: "300",
+    dad: "400",
   },
   {
-    id: 4,
+    id: 5,
     gambar: Proyek2,
     nama: "Sentiment Analisis",
     desk: "Project akhir untuk melakukan sentiment Analisis suatu hotel, tetapi untuk demo belum diterapkan",
     tools: ["Python", "pandas", "TensorFlow"],
     link:"https://github.com/fuguhverdian/Sentiment-Analysis",
     logo: "ri-github-fill ri-lg",
-    dad: "400",
+    dad: "500",
   },
   {
-    id: 5,
+    id: 6,
     gambar: Proyek3,
     nama: "Scraping web hotel",
     desk: "Project untuk melakukan Scraping data di situs booking.com",
     tools: ["Python", "BeutifulSoup", "Selenium"],
     link:"https://github.com/fuguhverdian/web_scraping-for-booking-only-coments.com",
     logo: "ri-github-fill ri-lg",
-    dad: "500",
+    dad: "600",
   },
   
   {
-    id: 6,
+    id: 7,
     gambar: Proyek4,
     nama: "Website Portfolio",
     desk: "Website Portofolio diri dengan menggunakan React dan TailwindCSS",
     tools: ["ReactJS", "TailwindCSS", "Bootstrap", "AOS"],
     link:"#",
     logo: "ri-github-fill ri-lg",
-    dad: "600",
+    dad: "700",
   },
   {
-    id: 7,
+    id: 8,
     gambar: Proyek5,
     nama: "Playman - App music player",
     desk: "Music player berbasis android menggunakan bahasa C#",
     tools: ["C#"],
     link:"https://github.com/AldiPutra24/Music-Players",
     logo: "ri-github-fill ri-lg",
-    dad: "700",
+    dad: "800",
   },
   {
-    id: 8,
+    id: 9,
     gambar: Proyek6,
     nama: "UI/UX DANA",
     desk: "User Interface untuk dana sebagai project di semester lalu",
     tools: ["Figma"],
     link:"https://www.figma.com/proto/RouKjCU8qqmxnNBaE6bx5c/skecth?node-id=1-7&starting-point-node-id=1%3A7&t=XNyE46ktmnzR3hST-1",
     logo: "ri-figma-fill ri-lg",
-    dad: "800",
+    dad: "900",
   },
 ];
